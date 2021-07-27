@@ -51,6 +51,118 @@ nav{
     margin-left: 175px;
 }
 
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main .main__welcome {
+    background: #000;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 410px; 
+}
+main .main__welcome p {
+    color: #999999;
+    font-size: 20px;
+    font-weight: 900;
+}
+main .main__welcome h1 {
+    color: #999999;
+    font-size: 44px;
+}
+.mycompany{
+    color: #fcac45;
+}
+.wrapper{
+    width: 81%;
+    margin: 0 auto;
+}
+
+main .main__about{
+    display: flex;
+    padding-top: 103px;
+    padding-bottom: 103px;
+}
+
+.about__right h1{
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 22px;
+    font-size: 45px;
+}
+.about__right p{
+    margin-top: 22px;
+    margin-bottom: 50px;
+    color: #848484;
+    font-weight: 900;
+}
+
+.about__right li{
+   background: url(images/3.png) 0px no-repeat;
+   padding-left: 25px;
+   margin-top: 10px;
+   color: #5a5a5a;
+   font-style: italic;
+}
+strong{
+    font-style: normal;
+}
+span{    
+     font-weight: 900;
+}
+
+.main__team{
+    background: #000;
+    text-align: center;
+    padding: 100px 0 165px 0;
+    color: #fff;
+}
+
+.main__team h1{
+    font-size: 44px;
+    padding-bottom: 30px;
+}
+
+.line{
+    height: 3px;
+    width: 100px;
+    background: #fcac45;
+    position: relative;
+    left:47.5%;
+    margin-bottom: 85px;
+}
+.photo{
+    background: #d7d7d7;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.team__cards{
+    display: flex;
+}
+.name{
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.position{
+     font-size: 16px;
+     font-weight: 900;
+     padding-bottom: 25px;
+}
+
+.about__position{
+    font-size: 14px;
+    font-weight: 900;
+}
+.card{
+    margin: 0 40px;
+}
+
+
 /*Nav*/
 @media screen and (max-width:1200px)  {
     nav {
@@ -130,69 +242,15 @@ nav{
          margin-top: 10px;
         font-size: 20px;
     }
+    .team__cards{
+        flex-direction: column;
+    }
+    .line{
+        position: relative;
+        right:45%;
+    }
 }
 
 
 /***************/
 
-main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-main .main__welcome {
-    background: #000;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 410px; 
-}
-main .main__welcome p {
-    color: #999999;
-    font-size: 20px;
-    font-weight: 900;
-}
-main .main__welcome h1 {
-    color: #999999;
-    font-size: 44px;
-}
-.mycompany{
-    color: #fcac45;
-}
-.wrapper{
-    width: 81%;
-    margin: 0 auto;
-}
-
-main .main__about{
-    display: flex;
-    padding-top: 103px;
-    padding-bottom: 103px;
-}
-
-.about__right h1{
-    display: inline-block;
-    border-bottom: 3px solid #fcac45;
-    padding-bottom: 22px;
-    font-size: 45px;
-}
-.about__right p{
-    margin-top: 22px;
-    margin-bottom: 50px;
-    color: #848484;
-    font-weight: 900;
-}
-
-.about__right li{
-   background: url(images/3.png) 0px no-repeat;
-   padding-left: 25px;
-   margin-top: 10px;
-   color: #5a5a5a;
-   font-style: italic;
-}
-strong{
-    font-style: normal;
-}
-span{    
-     font-weight: 900;
-
-}
