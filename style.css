@@ -130,7 +130,7 @@ span{
     width: 100px;
     background: #fcac45;
     position: relative;
-    left:47.5%;
+    left:46.5%;
     margin-bottom: 85px;
 }
 .photo{
@@ -162,6 +162,32 @@ span{
     margin: 0 40px;
 }
 
+.services__cards{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap:20px;
+    padding: 100px 0 165px 0;
+}
+
+.main__services h1{
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.main__services p{
+   color: #848484;
+   font-size: 22px; 
+   
+}
+.services__card h4{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 33px; 
+}
+.services__card p{
+    
+    font-size: 22px; 
+}
 
 /*Nav*/
 @media screen and (max-width:1200px)  {
@@ -246,8 +272,11 @@ span{
         flex-direction: column;
     }
     .line{
-        position: relative;
-        right:45%;
+        left:37%;
+    }
+
+    .services__cards{
+        grid-template-columns: auto;
     }
 }
 
