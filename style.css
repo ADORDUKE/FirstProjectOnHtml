@@ -172,6 +172,7 @@ span{
 
 .main__services h1{
     text-align: center;
+    font-size: 44px;
     padding: 100px 0 30px 0;
 }
 .main__services p{
@@ -185,10 +186,57 @@ span{
     font-size: 33px; 
 }
 .services__card p{
-    
     font-size: 22px; 
 }
 
+.main__clients{
+    background: #000;
+    padding: 100px 0 212px 0;
+    color: #d7d7d7;
+    text-align: center;
+}
+
+.main__clients h1{
+    font-size: 44px;
+    margin-bottom: 30px;
+}
+
+.main__clients img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.main__testimonials{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+   
+    padding-bottom: 170px;
+}
+.main__testimonials h1{
+    font-size: 44px;
+    margin-top: 98px;
+    margin-bottom: 30px;
+}
+
+
+
+.main__testimonials .testimonial{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    word-wrap:inherit;
+    padding: 0 50px 0 50px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #e7e7e7;
+}
+.main__testimonials p{
+    font-weight: 900;
+    color: #b2b2b2;
+}
+
+.hg{
+    font-weight: 300;
+}
 /*Nav*/
 @media screen and (max-width:1200px)  {
     nav {
@@ -272,7 +320,7 @@ span{
         flex-direction: column;
     }
     .line{
-        left:37%;
+        left:44%;
     }
 
     .services__cards{
