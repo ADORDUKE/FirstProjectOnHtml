@@ -295,18 +295,37 @@ input:first-of-type{
 }
 .form__input{
     margin-top: 100px;
-    display: flex;
+     display: flex;  
+    width: 100%; 
+    flex-wrap: wrap ;
+    
+     justify-content: space-between;
 }
+.form__input div {
+    width: 47%;
+}
+
+ input[type="text"] {
+    width: 100%;
+    
+}
+
+input[type="email"] {
+    width: 100%;
+    
+} 
+
 textarea{
     width: 100%;
     height: 163px;
 }
+
 input,textarea{
     border: 1px solid #999999;
     margin-top: 5px;
 }
 .contact__wrapper{
-    width: 81%;
+    width: 50%;
 }
 .contact__wrapper h1,p{
     font-weight: 900;
