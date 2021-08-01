@@ -72,6 +72,9 @@ main .main__welcome h1 {
     color: #999999;
     font-size: 44px;
 }
+main .main__welcome h1::after{
+    display: none;
+}
 .mycompany{
     color: #fcac45;
 }
@@ -91,6 +94,9 @@ main .main__about{
     border-bottom: 3px solid #fcac45;
     padding-bottom: 22px;
     font-size: 45px;
+}
+.about__right h1::after {
+    display: none;
 }
 .about__right p{
     margin-top: 22px;
@@ -125,14 +131,14 @@ span{
     padding-bottom: 30px;
 }
 
-.line{
+/* .line{
     height: 3px;
     width: 100px;
     background: #fcac45;
     position: relative;
     left:46.5%;
     margin-bottom: 85px;
-}
+} */
 .photo{
     background: #d7d7d7;
     width: 125px;
@@ -299,7 +305,9 @@ input,textarea{
     border: 1px solid #999999;
     margin-top: 5px;
 }
-
+.contact__wrapper{
+    width: 81%;
+}
 .contact__wrapper h1,p{
     font-weight: 900;
     text-align: center;
@@ -331,7 +339,31 @@ form p{
     text-align: left;
 }
 
+h1::after{
+    content:"" ;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 30px;
+    border-bottom: 3px solid #fcac45;
+}
 
+footer{
+    width: 100%;
+    height: auto;
+    background: #222222;
+    padding: 30px 0 30px 0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin-left: 12px;
+}
+.social img:hover{
+    opacity: 0.9;
+}
 
 
 
@@ -410,17 +442,13 @@ form p{
         text-align: left;
 
     }
-     .about__right h1{
+    .about__right h1{
          margin-top: 10px;
         font-size: 20px;
     }
     .team__cards{
         flex-direction: column;
     }
-    .line{
-        left:44%;
-    }
-
     .services__cards{
         grid-template-columns: auto;
     }
@@ -434,7 +462,11 @@ form p{
     .line3 img:not(:first-child){
         display: none;
     }
+    .hg{
+        font-weight: 700;
+    } 
     
+
 }
 
 
